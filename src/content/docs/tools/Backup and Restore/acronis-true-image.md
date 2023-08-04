@@ -1,9 +1,10 @@
 ---
-title: Acronis True Image
-layout: default
-parent: Backup and Recovery
-grand_parent: Included Tools
-last_modified_date: September 28, 2021
+draft: false
+title: "Acronis True Image"
+publishDate: "2023-7-24"
+category: "Backup and Restore"
+author: "ItsItrio"
+tags: [backup, tools]
 ---
 
 # Acronis True Image

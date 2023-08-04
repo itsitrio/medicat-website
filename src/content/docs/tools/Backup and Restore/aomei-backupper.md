@@ -1,9 +1,10 @@
 ---
-title: AOMEI Backupper
-layout: default
-parent: Backup and Recovery
-grand_parent: Included Tools
-last_modified_date: September 28, 2021
+draft: false
+title: "AOMEI Backupper"
+publishDate: "2023-7-24"
+category: "Backup and Restore"
+author: "ItsItrio"
+tags: [backup, tools]
 ---
 
 # AOMEI Backupper
