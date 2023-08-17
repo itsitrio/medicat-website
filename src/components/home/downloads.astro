@@ -7,17 +7,16 @@ import Tabs from "@components/home/downloadTabs.svelte";
 <div class="flex flex-col justify-center gap-4 max-w-[70%] mx-auto py-5">
   <div class="text-center py-5 px-3 bg-black/60 shadow-2xl rounded">
     <h2 class="text-slate-200 text-3xl lg:text-5xl font-bold lg:tracking-tight">
-      Downloads
+      Installer
     </h2>
     <p class="text-lg mt-4 text-slate-300">
-      Please consider using mirrors and torrent files as it saves us bandwidth
-      and costs.
+      Batch and Bash Installer for Windows and Linux
     </p>
   </div>
   <div class="grid grid-cols-2 gap-4">
-    <div class="col-span-2">
+    <div>
       <Link
-        href="https://github.com/mon5termatt/medicat_installer/releases"
+        href="https://url.medicatusb.com/installerwindows"
         style="glow"
         target="_blank"
         class="flex gap-1 items-center justify-center"
@@ -25,10 +24,34 @@ import Tabs from "@components/home/downloadTabs.svelte";
         rel="noopener"
       >
         <Icon class="text-black w-5 h-5" name="round-cloud-download" />
-
-         Medicat Automatic Installer
+         Windows
       </Link>
     </div>
+    <div>
+      <Link
+        href="https://url.medicatusb.com/installerlinux"
+        style="glow"
+        target="_blank"
+        class="flex gap-1 items-center justify-center"
+        size="xl"
+        rel="noopener"
+      >
+        <Icon class="text-black w-5 h-5" name="round-cloud-download" />
+         Linux
+      </Link>
+    </div>
+  </div>
+
+<div class="flex flex-col justify-center gap-4 max-w-[70%] mx-auto py-5">
+  <div class="text-center py-5 px-3 bg-black/60 shadow-2xl rounded">
+    <h2 class="text-slate-200 text-3xl lg:text-5xl font-bold lg:tracking-tight">
+      Downloads
+    </h2>
+    <p class="text-lg mt-4 text-slate-300">
+      Please consider using the mirror/torrent as it saves us costs on hosting.
+    </p>
+  </div>
+  <div class="grid grid-cols-2 gap-4">
     <div>
       <Link
         href="https://github.com/mon5termatt/medicat_installer/raw/main/download/MediCat_USB_v21.12.torrent"
@@ -58,6 +81,7 @@ import Tabs from "@components/home/downloadTabs.svelte";
       </Link>
     </div>
   </div>
+
   <div class="text-center py-5 px-3 bg-black/60 shadow-2xl rounded">
     <h2 class="text-slate-200 text-3xl lg:text-5xl font-bold lg:tracking-tight">
       Alternative Downloads
@@ -66,3 +90,14 @@ import Tabs from "@components/home/downloadTabs.svelte";
   </div>
   <Tabs client:visible />
 </div>
+
+<div class="flex flex-col justify-center gap-4 max-w-[70%] mx-auto py-5">
+  <div class="text-center py-5 px-3 bg-black/60 shadow-2xl rounded">
+    <h2 class="text-slate-200 text-3xl lg:text-5xl font-bold lg:tracking-tight">
+      Hashes
+    </h2>
+    <p class="text-lg mt-4 text-slate-300">
+    MediCat.USB.v21.12.7z <br>MD5: db50f96a5c7b5ec6dc9ed77ea29fffb0 <br>SHA1: 2cbf5f337849a11084124a79a1b8d7e77eaca7d5  
+    </p>
+  </div>
+ </div>
